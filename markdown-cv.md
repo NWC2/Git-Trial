@@ -1,3 +1,4 @@
+<img src='./Profile.png' alt='profile Image' width='200px' height='200px' style='border-radius:50%; '>
 
 # Souheir Al Jammal
 ## Junior Full Stack Developer
@@ -43,6 +44,12 @@ A passionate and ambitious person, I thrive in creative fields and have a strong
 
 
 ## Courses
+### Full stack web developer | CODI BootCamp 
+
+- Provided an extensive training in full-stack web development 
+- Strengthened English skills, essential life and Leadership skills to excel in professional environments.
+
+
 ### Full stack web developer 
 
 - online courses in Backend and Frontend: HTML, CSS, JavaSC, REACt, NodeJS.
