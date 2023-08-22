@@ -133,7 +133,16 @@ li {
 <div class="container">
     <h1>Wouroud El Khaldi</h1>
     <h2>CV</h2>
-    <img src="wourou.jpg" alt="Profile Photo" width="100" height="100" class="profile-photo">
+    <img src="wourou.jpg" alt="Profile Photo" width="100" height="100" class="profile-photo"> 
+    <div class="contact-info">
+        <h2 style="color:black ; margin: 15px;">Personal Info</h2>
+        <p><b>Name:</b> Wouroud Mahmoud El Khaldi</p>
+        <p><b>Nationality:</b> Lebanese</p>
+        <p><b>Date of Birth:</b> 1/12/2004</p>
+        <p><b>Phone Number:</b> +96181877217</p>
+        <p><b>Email:</b> wardetlhob1@gmail.com</p>
+        <p><b>Location:</b> North Lebanon / Akkar / Bebnine</p>
+    </div>
     <h2 class="section-heading">Education</h2>
     <ul>
         <li><strong>2019</strong>: Brevet At - Dr. Yaacoub El Sarraf Official School</li>
@@ -144,11 +153,11 @@ li {
     <div class="certificate-box">
     <p><strong>META FRONT-END DEVELOPER PROFESSIONAL CERTIFICATE</strong></p>
     <ul>
-        <li><strong>26/02/2023</strong>: Introduction to Front-End Development by Meta at Coursera <a href="https://coursera.org/verify/LAPUX5ZRNDGH" class="cf-link" >Verify here</a> </li>
-        <li><strong>01/04/2023</strong>: Programming with JavaScript by Meta at Coursera <a href="https://coursera.org/verify/2524VWZNLZAC" class="cf-link">Verify here</a></li>
-        <li><strong>08/04/2023</strong>: Version control by Meta at Coursera <a href="https://coursera.org/verify/ZTKX5WN9RQDK" class="cf-link">Verify here</a></li>
-        <li><strong>/04/2023</strong>: HTML and CSS in depth by Meta at Coursera <a href="https://coursera.org/verify/EZJ58WJAMN83" class="cf-link">Verify here</a></li>
-        <li><strong>23/06/2023</strong>: React Basic by Meta at Coursera <a href="https://coursera.org/verify/YDBDGHVNE5XY" class="cf-link">Verify here</a></li>
+        <li><strong>26/02/2023</strong>: Introduction to Front-End Development by <strong>Meta</strong> at <em>Coursera</em> <a href="https://coursera.org/verify/LAPUX5ZRNDGH" class="cf-link" >Verify here</a> </li>
+        <li><strong>01/04/2023</strong>: Programming with JavaScript by <strong>Meta</strong> at <em>Coursera</em> <a href="https://coursera.org/verify/2524VWZNLZAC" class="cf-link">Verify here</a></li>
+        <li><strong>08/04/2023</strong>: Version control by <strong>Meta</strong> at <em>Coursera</em> <a href="https://coursera.org/verify/ZTKX5WN9RQDK" class="cf-link">Verify here</a></li>
+        <li><strong>/04/2023</strong>: HTML and CSS in depth by <strong>Meta</strong> at <em>Coursera</em> <a href="https://coursera.org/verify/EZJ58WJAMN83" class="cf-link">Verify here</a></li>
+        <li><strong>23/06/2023</strong>: React Basic by <strong>Meta</strong> at <em>Coursera</em> <a href="https://coursera.org/verify/YDBDGHVNE5XY" class="cf-link">Verify here</a></li>
     </ul>
     </div>
     <h2 class="section-heading">Languages</h2>
@@ -173,14 +182,6 @@ li {
         <span class="skill-badge">Basic use of Bootstrap framework</span>
         <span class="skill-badge">UI/UX design</span>
     </div>
-    <div class="contact-info">
-        <h2 style="color:black ; margin: 15px;">Personal Info</h2>
-        <p>Name: Wouroud Mahmoud El Khaldi</p>
-        <p>Nationality: Lebanese</p>
-        <p>Date of Birth: 1/12/2004</p>
-        <p>Phone Number: +96181877217</p>
-        <p>Email: wardetlhob1@gmail.com</p>
-        <p>Location: North Lebanon / Akkar / Bebnine</p>
-    </div>
+ 
 </div>
 </body>
