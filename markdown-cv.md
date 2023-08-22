@@ -8,16 +8,48 @@ body {
 }
 
 .container {
+    display: flex ;
     max-width: 800px;
-    margin: auto;
+    margin: 20px;
     padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 10px rgba(166, 0, 255);
     border-radius: 10px;
+    color : #333 ;
+}
+
+.profile-column {
+    flex: 1;
+    padding-right :  20px;
+}
+
+.content-column {
+    flex : 2;
+    background-color: #fff;
+    box-shadow : 0 2px 10px rgba(166, 0, 255);
+    border-radius : 10px;
+    padding : 20px;
+}
+
+
+h1:hover {
+    box-shadow: 0 0 10px rgba(166, 0, 255);
+    transform : scale(1.05) ;
+    transition: transform 0.2s ease-in-out;
+    background : linear-gradient(to top, #a600ff, gray ) ;
+    border-radius : 30% ;
+    background-clip: text ;
+    color: #fff;
+}
+h1 {
+    font-size: 2.5rem ;
+    text-align: center ;
+    margin: 10px;
+    padding: 10px;
 }
 
 h1, h2 {
-    color: #007bff;
+    color: #a600ff;
     text-align: center;
 }
 
@@ -25,7 +57,7 @@ img.profile-photo {
     display: block;
     margin: auto;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(166, 0, 255);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -35,7 +67,7 @@ img.profile-photo:hover {
 
 h2.section-heading {
     margin-top: 30px;
-    border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid #a600ff;
     padding-bottom: 5px;
 }
 
@@ -59,18 +91,18 @@ li {
 
 .certificate-box:hover {
     transform: scale(1.02);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(166, 0, 255);
 }
 
 .contact-info {
-    background-color: #007bff;
+    background-color: #a600ff;
     color: #fff;
-    padding: 10px;
+    padding: 20px;
     border-radius: 5px;
     margin-top: 20px;
-    margin-left: auto; /* Horizontally center */
-    margin-right: auto; /* Horizontally center */
-    text-align: center; /* Center the text content */
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center; 
 }
 
 .language {
@@ -84,16 +116,17 @@ li {
 }
 
 .language:hover{
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(166, 0, 255);
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
 }
 
 .section-heading {
-    color: #007bff;
-    margin-top: 20px;
-    border-bottom: 2px solid #007bff;
-    padding-bottom: 5px;
+    color: #a600ff;
+    margin-top: 30px;
+    border-bottom: 2px solid #a600ff;
+    padding-bottom: 5px 0;
+    background-color: #f5f5f5; 
 }
 
 .skills-list {
@@ -104,7 +137,7 @@ li {
 
 .skill-badge {
     display: inline-block;
-    background-color: #007bff;
+    background-color: #a600ff;
     color: #fff;
     padding: 5px 10px;
     margin: 7px;
@@ -113,6 +146,7 @@ li {
 .skill-badge:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(71, 71, 71)
 }
 
 
@@ -121,7 +155,7 @@ li {
 }
 
 .cf-link:hover {
-    color: #ff66aa; 
+    color: #a600ff; 
 }
 
 .cf-link:active {
@@ -131,18 +165,21 @@ li {
 </style>
 <body class="cv">
 <div class="container">
+  <div class="profile-column">
     <h1>Wouroud El Khaldi</h1>
     <h2>CV</h2>
-    <img src="wourou.jpg" alt="Profile Photo" width="100" height="100" class="profile-photo"> 
+    <img src="wourou.jpg" alt="Profile Photo" width="180" height="180" class="profile-photo"> 
     <div class="contact-info">
         <h2 style="color:black ; margin: 15px;">Personal Info</h2>
         <p><b>Name:</b> Wouroud Mahmoud El Khaldi</p>
         <p><b>Nationality:</b> Lebanese</p>
         <p><b>Date of Birth:</b> 1/12/2004</p>
         <p><b>Phone Number:</b> +96181877217</p>
-        <p><b>Email:</b> wardetlhob1@gmail.com</p>
+        <p><b>Email:</b><a href="mailto:wouroudelkhaldi@gmail.com"  style="color:#e3cfdb">wouroudelkhaldi@gmail.com</a></p>
         <p><b>Location:</b> North Lebanon / Akkar / Bebnine</p>
     </div>
+  </div>
+  <div class="content-column">
     <h2 class="section-heading">Education</h2>
     <ul>
         <li><strong>2019</strong>: Brevet At - Dr. Yaacoub El Sarraf Official School</li>
