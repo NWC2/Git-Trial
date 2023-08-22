@@ -68,6 +68,9 @@ li {
     padding: 10px;
     border-radius: 5px;
     margin-top: 20px;
+    margin-left: auto; /* Horizontally center */
+    margin-right: auto; /* Horizontally center */
+    text-align: center; /* Center the text content */
 }
 
 .language {
@@ -117,16 +120,14 @@ li {
     margin-top: 10px;
 }
 
-.cv {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+.cf-link:hover {
+    color: #ff66aa; 
 }
 
-.cv.loaded {
-opacity: 1;
-transform: translateY(0);
+.cf-link:active {
+    color: #00cc00 ;
 }
+
 </style>
 <body class="cv">
 <div class="container">
@@ -143,11 +144,11 @@ transform: translateY(0);
     <div class="certificate-box">
     <p><strong>META FRONT-END DEVELOPER PROFESSIONAL CERTIFICATE</strong></p>
     <ul>
-        <li><strong>26/02/2023</strong>: Introduction to Front-End Development by Meta at Coursera [Verify here]</li>
-        <li><strong>01/04/2023</strong>: Programming with JavaScript by Meta at Coursera [Verify here]</li>
-        <li><strong>08/04/2023</strong>: Version control by Meta at Coursera [Verify here]</li>
-        <li><strong>/04/2023</strong>: HTML and CSS in depth by Meta at Coursera [Verify here]</li>
-        <li><strong>23/06/2023</strong>: React Basic by Meta at Coursera [Verify here]</li>
+        <li><strong>26/02/2023</strong>: Introduction to Front-End Development by Meta at Coursera <a href="https://coursera.org/verify/LAPUX5ZRNDGH" class="cf-link" >Verify here</a> </li>
+        <li><strong>01/04/2023</strong>: Programming with JavaScript by Meta at Coursera <a href="https://coursera.org/verify/2524VWZNLZAC" class="cf-link">Verify here</a></li>
+        <li><strong>08/04/2023</strong>: Version control by Meta at Coursera <a href="https://coursera.org/verify/ZTKX5WN9RQDK" class="cf-link">Verify here</a></li>
+        <li><strong>/04/2023</strong>: HTML and CSS in depth by Meta at Coursera <a href="https://coursera.org/verify/EZJ58WJAMN83" class="cf-link">Verify here</a></li>
+        <li><strong>23/06/2023</strong>: React Basic by Meta at Coursera <a href="https://coursera.org/verify/YDBDGHVNE5XY" class="cf-link">Verify here</a></li>
     </ul>
     </div>
     <h2 class="section-heading">Languages</h2>
@@ -172,9 +173,8 @@ transform: translateY(0);
         <span class="skill-badge">Basic use of Bootstrap framework</span>
         <span class="skill-badge">UI/UX design</span>
     </div>
-</div>
     <div class="contact-info">
-        <h2 style="color:black ; margin: 15px;">Contact Info</h2>
+        <h2 style="color:black ; margin: 15px;">Personal Info</h2>
         <p>Name: Wouroud Mahmoud El Khaldi</p>
         <p>Nationality: Lebanese</p>
         <p>Date of Birth: 1/12/2004</p>
