@@ -1,3 +1,7 @@
+
+<center><img src='hasan.jpg' style="width:150px;border-radius:40px"></img></center>
+
+
 # <center> Hasan Deeb </center>
 ## <center> Front-end Developer </center>
 ---
@@ -54,19 +58,18 @@ Python: 2.5
 
 ReactJs: 3
 
-git: 2
+Git: 2
 
 <p style="background-color:black;color:white;width:fit-content;padding:5px;"> SOFT SKILLS</p>
 
 *(From 1 to 5)*
 
 Problem Solving: 4
-
 Time Management: 3.5
 
 Communication: 3
 
-TeamWork: 4.5
+Team Work: 4.5
 
 <p style="background-color:black;color:white;width:fit-content;padding:5px;"> LANGUAGES</p>
 
