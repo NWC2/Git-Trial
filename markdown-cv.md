@@ -1,3 +1,5 @@
+<img src="Rachwan%20Harb.jpeg" alt="Rachwan's Profile Picture" width="250" style="border-radius: 2px">
+
 # Rachwan Harb
 **Frontend Developer**
 
@@ -33,4 +35,4 @@ Hello! I'm Rachwan, a passionate Frontend Developer with a tiny experience in UI
 ## Contact
 - Email: rachwan.harb2023@gmail.com
 - LinkedIn: linkedin.com/in/rachwanharb
-- Phone number: 
+- Phone number: +96176445648
